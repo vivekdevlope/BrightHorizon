@@ -48,14 +48,14 @@ const Navbar = ({ textColorWhenTransparent = "text-white" }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="top-0 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Brand - FIXED LOGO */}
-          <Link to="/" onClick={closeMenu} className="flex items-center flex-shrink-0">
+          <Link to="/" onClick={closeMenu} className="flex w-[16%] items-center flex-shrink-0">
             <img
               src={logo}
               alt="BrightHorizon Infotech"
-              className="h-20 w-auto object-contain sm:h-11 md:h-56 mt-5 md:w-full transition-transform duration-200 hover:scale-105"
+              className="h-24 w-auto object-contain sm:h-11 md:h-56 mt-5 md:w-full transition-transform duration-200 hover:scale-105"
             />
           </Link>
 
